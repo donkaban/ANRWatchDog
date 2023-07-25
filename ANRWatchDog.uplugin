@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ANR Watch Dog",
+	"Description": "ANR Watch Dog by Kirill A. Shabordint",
+	"Category": "Android",
+	"CreatedBy": "Kirill A. Shabordin",
+	"CreatedByURL": "https://github.com/donkaban",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EngineVersion": "5.0.0",
+	"Modules": [
+      {
+        "Name": "ANRWatchDog",
+        "Type": "Runtime",
+        "LoadingPhase": "Default",
+        "WhitelistPlatforms": [
+          "Win64",
+          "Android"
+        ]
+      }
+    ]
+}
